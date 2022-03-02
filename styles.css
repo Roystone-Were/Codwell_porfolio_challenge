@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans&family=Playfair+Display:wght@500&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* NAVIGATION BAR */
+
+.navbar{
+    padding:3rem 10rem 3rem 10rem;
+    background-color: #000000;
+    
+}
+
+/* FIRST SECTION */
+.first_section{
+background-color: #000000;
+
+}
+
+.main_paragraph{
+    font-size: 3rem;
+}
+
+.logo_container{
+    text-align: center;
+    padding-top: 4rem ;
+    padding-bottom: 4rem;
+}
+
+/* PROJECT SECTION  */
+.project_section{
+    background-color: #000000;
+}
+
+/* ABOUT SECTION */
+.about_section{
+    background-color: #6D8299;
+    
+}
+
+.contact_section{
+    background-color: #000000;
+    padding-bottom: 4rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: #6D8299;
+    padding-bottom: 1.5rem;
+}
+
+.footer_icons{
+    padding-left: 50rem;
+   
+}
+
+h5{
+    position: relative;
+    padding: 20px 0 20px 0;
+    bottom: -60px;
+    font-size: small;
+
+}
+
+/* icons */
+.icon{
+    padding-bottom: 30px;
+}
+.svg_icons{
+    padding: 3px;
+}
+
+.social_icons{
+    text-align: right;
+}
+
+/* BUTTONS */
+.contact_button{
+    padding-bottom: 4rem;
+}
+
+
+.navbar_button,.contact_button {
+    font-size: 16px;
+    padding: 1em 3.3em;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgba(63,94,251,0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70,135,252,1);
+   }
+   
+   button:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+   }
+   
+   button:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+   }
+
+/* Group Styles */
+.main_paragraph, .minor_paragraph, h2, p,h5, .navbar,.about_title, .contact_title{
+    color: #fff;
+}
+
+.contact_section, .about_section {
+    padding-top: 4rem;
+}
+
+.project_section,.about_section{
+    padding-bottom: 4rem;
+}
+
+.main_paragraph,h2{
+    font-family: 'Playfair Display', serif;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:900px){
+    .navbar{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
