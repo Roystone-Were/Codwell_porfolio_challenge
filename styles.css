@@ -1,21 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat&family=Playfair+Display:wght@500&display=swap');
 
-body{
-    font-family: 'Open Sans', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 /* NAVIGATION BAR */
 
 .navbar{
-    padding:3rem 10rem 3rem 10rem;
-    background-color: #000000;
-    
+    padding:3rem 10rem 3rem 10rem;    
 }
 
 /* FIRST SECTION */
-.first_section{
-background-color: #000000;
-
-}
 
 .main_paragraph{
     font-size: 3rem;
@@ -27,25 +33,14 @@ background-color: #000000;
     padding-bottom: 4rem;
 }
 
-/* PROJECT SECTION  */
-.project_section{
-    background-color: #000000;
-}
-
 /* ABOUT SECTION */
-.about_section{
-    background-color: #6D8299;
-    
-}
 
 .contact_section{
-    background-color: #000000;
     padding-bottom: 4rem;
 }
 
 /* FOOTER */
 footer{
-    background-color: #6D8299;
     padding-bottom: 1.5rem;
 }
 
@@ -120,6 +115,15 @@ h5{
     font-family: 'Playfair Display', serif;
 }
 
+.navbar,.contact_section,.project_section,.first_section{
+    background-color: #000000;
+}
+footer,.about_section{
+    background-color: #6D8299;
+}
+
+
+
 /* MEDIA QUERY */
 
 @media (max-width:900px){
@@ -127,4 +131,7 @@ h5{
         padding-left: 0;
         padding-right: 0;
     }
+    /* .project_image{
+        width: 200px;
+    } */
 }
